@@ -1,0 +1,74 @@
+{
+  "restaurants": [
+    {
+      "id": "M001",
+      "name": "UDIPI ATHITHYA",
+      "type": "SOUTH INDIAN",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero nec lectus malesuada, vel euismod ex volutpat.",
+      "address": "123 Main St, Kodathi Gate, Bengaluru City",
+      "imageUrl": "https://rakskitchen.net/wp-content/uploads/2014/03/idli-vada-pongal-chutney.jpg",
+      "phone": "+123 456 789"
+    },
+    {
+      "id": "M002",
+      "name": "BABAI TIFFINS",
+      "type": "ANDHRA SPECIAL",
+      "description": [
+        [
+          [
+            [
+              [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero nec lectus malesuada, vel euismod ex volutpat."
+              ]
+            ]
+          ]
+        ]
+      ],
+      "address": [
+        [
+          [
+            [
+              [
+                "123 Main St, Sarjapur, Bengaluru City"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "imageUrl": [
+        [
+          [
+            [
+              [
+                "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*cmwH0RXDxpUAdnLC"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "phone": [
+        [
+          "+123 456 780"
+        ]
+      ]
+    },
+    {
+      "id": "M003",
+      "name": "PULKE GHARKE",
+      "type": "NORTH INDIAN",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero nec lectus malesuada, vel euismod ex volutpat.",
+      "address": "123 Main St, Hsr Layout, Bengaluru City",
+      "imageUrl": "https://www.howsweeteats.com/wp-content/uploads/2020/03/garlic-butter-naan-2-1534x2048.jpg",
+      "phone": "+123 456 789"
+    },
+    {
+      "id": "4",
+      "name": "BURGER KING",
+      "type": "AMERICAN",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero nec lectus malesuada, vel euismod ex volutpat.",
+      "address": "123 Street , Bellandur , Bengaluru City",
+      "imageUrl": "https://gumlet-images.assettype.com/afaqs/2023-05/815b4cd1-095c-47b7-868f-c7701074ebe7/Tasty_Meals_KV.jpg?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0",
+      "phone": "+91 9550842001"
+    }
+  ]
+}

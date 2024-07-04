@@ -1,0 +1,22 @@
+<body>
+  <div class="headLine">
+    <h1>Famous Restaurents in Bengaluru</h1>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item" *ngFor="let restaurent of restaurentList">
+      <div class="clickable" (click)="detailedPage(restaurent)">
+        <a [routerLink]="">
+          <div class="container">
+            <div class="imageClasss">
+              <img [src]="restaurent.imageUrl" />
+            </div>
+            <div class="information">
+              <h3>{{ restaurent.name }}</h3>
+              <h5>{{restaurent.address}}</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>

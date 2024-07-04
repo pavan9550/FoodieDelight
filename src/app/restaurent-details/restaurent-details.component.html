@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Details</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="restaurant">
+        <img [src]="currentRestaurent.imageUrl" alt="Restaurant Image" />
+        <h2>{{ currentRestaurent.name }}</h2>
+        <p>Address: {{ currentRestaurent.address }}</p>
+        <p>Phone: {{ currentRestaurent.phone }}</p>
+        <p>Opening Hours: Monday - Friday, 10am - 10pm</p>
+        <p>Description: {{ currentRestaurent.description }}</p>
+        <div class="buttonList">
+          <button class="btn btn-warning" (click)="editRestaurent()">Edit</button>
+          <button class="btn btn-primary" (click)="backToList()">Back</button>
+          <button class="btn btn-danger" (click)="delete()">Delete</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

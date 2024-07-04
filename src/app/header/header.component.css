@@ -1,0 +1,94 @@
+html,
+body {
+    height: 300px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input[type="text"],
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    /* Take remaining space */
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+.hero {
+    position: relative;
+    height: 250px;
+    /* Adjust height as needed */
+    background-image: url('https://cdn.magicdecor.in/com/2023/09/29160423/3D-Wallpaper-for-Restaurant-Wall-mix-mockup.jpg');
+    /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav-content {
+    display: flex;
+    gap: 850px;
+    position: absolute;
+    top: 10px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow for better readability */
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+button {
+    background-color: transparent;
+    /* Set background color to transparent */
+    border: 1px solid transparent;
+    font-size: 18px;
+    cursor: pointer;
+}

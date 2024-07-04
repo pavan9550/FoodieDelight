@@ -1,0 +1,59 @@
+  /* Resetting default margin and padding */
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering content */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background color */
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  /* Styling the content */
+  .restaurant {
+    max-width: 800px; /* Limit width of content */
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background color */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  .buttonList{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 16%;
+  }
+  
+  .restaurant img {
+    width: 350px; /* Ensure image does not exceed container width */
+    height: 300px;
+    border-radius: 10px; /* Rounded corners for image */
+    margin-bottom: 20px; /* Space between image and details */
+  }
+  
+  .restaurant h2 {
+    font-size: 2em; /* Larger font size for restaurant name */
+    margin-bottom: 10px; /* Space below restaurant name */
+  }
+  
+  .restaurant p {
+    font-size: 1.2em; /* Font size for details */
+    line-height: 1.6; /* Line height for better readability */
+  }

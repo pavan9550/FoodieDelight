@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Front Page</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="topnav-content">
+        <div class="leftSide">
+            <button class="btn btn-primary" [routerLink]="'/'">FoodieDelight</button>
+        </div>
+        <div class="rightSide">
+          <button class="btn btn-primary" [routerLink]="'AddRestaurent'">Add Restaurent</button>
+          <button class="btn btn-primary" [routerLink]="'AddRestaurent'">Profile</button>
+        </div>
+      </div>
+      <div class="hero-content">
+        <h2>FoodieDelight</h2>
+        <h1>Discover the best food & drinks in Bengaluru</h1>
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Search for restaurent, cuisine or a dish"
+          />
+          <button type="submit">Search</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<router-outlet></router-outlet>

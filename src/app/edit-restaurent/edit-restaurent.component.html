@@ -3,7 +3,7 @@
   <form [formGroup]="restaurantForm" (ngSubmit)="onUpdate()">
     <div class="form-group">
       <label for="restaurantId">Restaurant ID:</label>
-      <input type="text" [(ngModel)]="test" class="form-control" id="restaurantId" formControlName="restaurantId">
+      <input type="text" value={{ID}} class="form-control" id="restaurantId" formControlName="restaurantId">
     </div>
     <div class="form-group">
       <label for="restaurantName">Restaurant Name:</label>

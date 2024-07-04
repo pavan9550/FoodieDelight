@@ -65,10 +65,16 @@
       "id": "4",
       "name": "BURGER KING",
       "type": "AMERICAN",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero nec lectus malesuada, vel euismod ex volutpat.",
-      "address": "123 Street , Bellandur , Bengaluru City",
-      "imageUrl": "https://gumlet-images.assettype.com/afaqs/2023-05/815b4cd1-095c-47b7-868f-c7701074ebe7/Tasty_Meals_KV.jpg?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0",
-      "phone": "+91 9550842001"
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero nec lectus malesuada, vel euismod ex volutpat."
+      ],
+      "address": "123 Street , Hebbal , Bengaluru City",
+      "imageUrl": [
+        "https://gumlet-images.assettype.com/afaqs/2023-05/815b4cd1-095c-47b7-868f-c7701074ebe7/Tasty_Meals_KV.jpg?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0"
+      ],
+      "phone": [
+        "+91 9550842001"
+      ]
     }
   ]
 }

@@ -7,7 +7,7 @@ import { Observable, of } from 'rxjs';
 })
 export class RestaurentService {
 
-  private apiUrl = 'http://localhost:3000/restaurants'; // Replace with your json-server URL
+  private apiUrl = 'http://localhost:3000/restaurants';
 
   constructor(private http: HttpClient) { }
 
